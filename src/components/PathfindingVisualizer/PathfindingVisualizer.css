@@ -1,0 +1,54 @@
+.controls {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.controls button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: background-color 0.2s;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+}
+
+.controls button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.grid {
+  margin: 0 auto;
+  display: table;
+  border-collapse: collapse;
+}
+
+.grid-row {
+  display: table-row;
+}
+
+.stats {
+  margin: 15px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-family: sans-serif;
+  color: #333;
+}
+
+.stats p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.stats strong {
+  color: #007bff;
+}
